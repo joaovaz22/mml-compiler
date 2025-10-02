@@ -1,8 +1,6 @@
-# MML Compiler (C++ with Flex & Bison)
-
+# MML Compiler (C++ with Flex & Bison) 
 A compiler built with **C++**, **Flex**, and **Bison**.  
-The project implements all major stages of compiler design: **lexical analysis**, **parsing**, **AST construction**, **semantic analysis**, and **code generation**.  
----
+The project implements all major stages of compiler design: **lexical analysis**, **parsing**, **AST construction**, **semantic analysis**, and **code generation**. 
 
 ## ⚙️ Build Instructions
 
@@ -25,7 +23,7 @@ This generates the `mml` compiler executable.
 
 Compile an MML program:
 ```bash
-./mml tests/example.mml
+./mml tests/
 ```
 
 Run parser tests:
